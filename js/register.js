@@ -20,7 +20,7 @@ var account = document.getElementById('account');
 account.onclick = function(){
 	self.location = "login.html";
 }
-//====================================================
+//-------------------------------------------------------------------------->
 var phone = document.getElementById('phone');
 var ver = document.getElementById('ver');
 //获取光标触发事件
@@ -32,7 +32,7 @@ ver.onfocus = function(){
 	ver.value = '';
 	ver.style.color = 'black'
 }
-//=======================================================
+//----------------------------------------------------------->
 //校验
 var btn = document.getElementById('btn');
 var pat = /^1\d{10}$/;

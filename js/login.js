@@ -9,7 +9,7 @@
   doc.addEventListener("DOMContentLoaded", fn, false);
 
 }(document, window));
-
+//------------------------------------------------------------------------------------------------>
 //return index
 var ret = document.getElementById('ret');
 ret.onclick = function(){
@@ -29,7 +29,6 @@ inp.onfocus = function(){
 	inp.style.color = 'black';
 }
 pwd.onfocus = function(){
-	pwd.placeholder = '';
 	pwd.value = '';
 	pwd.style.color = 'black';
 }
