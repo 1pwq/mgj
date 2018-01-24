@@ -62,7 +62,7 @@ var m = document.getElementById('m');
 var s = document.getElementById('s');	
 function time(){
 	var nowDate = new Date();//当前系统时间
-	var futDate = new Date("2017/10/01");//设定将来时间
+	var futDate = new Date("2018/10/01");//设定将来时间
 	
 	var nms = nowDate.getTime(); //now ms
 	var fms = futDate.getTime(); // future ms
